@@ -1,0 +1,12 @@
+Scripts for training models to predict DEGs vs nonDEGs using CNN models.
+The analysis is based on Washburn et al. 2019. Previous steps are analyzed using the scripts by Emily Bellis, https://github.com/em-bellis/CNN_GxE
+
+*getLabels.py
+The script transforms a list of up regulated, down regulated and non DEGs to the binary format required for reading into the testHyperparametersDEGvsnonDEG.py scripts as Labels.
+
+*testHyperparametersDEGvsnonDEG.py
+Using a list of desired hyperparameter values the training and testing of grid search for each model is performed.
+
+*random_forest.R
+
+Script used to do random forest analysis for Col-0 DEGs. 
